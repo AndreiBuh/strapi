@@ -52,6 +52,12 @@
     "category_slug": {
       "type": "string",
       "required": true
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "likes": {
+      "type": "integer"
     }
   }
 }

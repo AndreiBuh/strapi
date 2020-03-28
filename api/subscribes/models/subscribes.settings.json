@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "subscribes",
+  "info": {
+    "name": "Subscribes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "private": true,
+      "required": true,
+      "unique": true
+    }
+  }
+}
